@@ -1,5 +1,9 @@
+import {HiOutlineTrash} from "react-icons/hi"
+
 export default function RemoveBtn(){
     return(
-        <div>Remove btn</div>
+        <button>
+            <HiOutlineTrash size={24} color="red"/>
+        </button>
     )
 }
